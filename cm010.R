@@ -40,6 +40,7 @@ levels(hDat$country)
 nlevels(hDat$country)
 
 iDat <- droplevels(hDat)
+levels(iDat$country)
 levels(iDat$continent)
 iDat <- hDat %>% droplevels
 
